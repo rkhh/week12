@@ -1,0 +1,52 @@
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	font-size: 16px;
+	color: #f2fbff;
+	font-style: sans-serif;
+	background-color: #438694;
+	position: relative;
+}
+
+.overview {
+	list-style: none;
+	width: 20%;
+	position: absolute;
+
+}
+
+.overview li {
+	margin-bottom: 20px;
+}
+
+.recipes {
+	float: left;
+	padding-left: 400px;
+}
+
+a {
+	color: #f2fbff;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+.btn {
+    margin: 5px;
+    cursor: pointer;
+  }
+
+.btn:hover {
+    background: #134355;
+    margin: 20px, 20px;
+  }
+
+
+
